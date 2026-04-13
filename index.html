@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forcastle — Build · Ship · Grow</title>
+    <meta name="description"
+        content="Forcastle is a full-stack web development studio by Mohd Naif. We build websites, landing pages, and web applications for clients worldwide." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav>
+        <a href="index.html" class="nav-logo"><span>FOR</span>CASTLE</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="nav-cta">Let's Talk</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-tag">Digital Product Studio</div>
+            <h1>We build digital<br>products <em>that last.</em></h1>
+            <p class="hero-sub">Forcastle crafts websites, landing pages, and full-stack web applications for businesses
+                worldwide — from concept to deployment.</p>
+            <div class="hero-actions">
+                <a href="contact.html" class="btn-primary">Start a project →</a>
+                <a href="portfolio.html" class="btn-secondary">View our work</a>
+            </div>
+            <div class="hero-scroll">Built to perform · Designed to last</div>
+        </div>
+
+        <!-- RIGHT — Image Collage -->
+        <div class="hero-collage" aria-hidden="true">
+            <div class="hero-collage-img hero-collage-img--top">
+                <img src="images/website1.png" alt="Website project showcase" />
+            </div>
+            <div class="hero-collage-img hero-collage-img--bottom">
+                <img src="images/website3.png" alt="Another website project" />
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <div class="stats">
+        <div class="stat fade-up">
+            <div class="stat-number">3+</div>
+            <div class="stat-label">Projects delivered</div>
+        </div>
+        <div class="stat fade-up">
+            <div class="stat-number">3</div>
+            <div class="stat-label">Industries served</div>
+        </div>
+        <div class="stat fade-up">
+            <div class="stat-number">5</div>
+            <div class="stat-label">Core services</div>
+        </div>
+        <div class="stat fade-up">
+            <div class="stat-number">∞</div>
+            <div class="stat-label">Cups of coffee</div>
+        </div>
+    </div>
+
+    <!-- SERVICES -->
+    <section class="section">
+        <p class="section-tag">What we do</p>
+        <h2 class="section-title">Everything you need to<br><em>build online.</em></h2>
+        <div class="services-grid">
+            <div class="service-card fade-up">
+                <div class="service-icon"><i data-lucide="globe"></i></div>
+                <div class="service-name">Websites</div>
+                <p class="service-desc">Clean, fast, and professional business websites built to convert visitors into
+                    clients.</p>
+                <p class="service-from">From <strong>₹25,000</strong></p>
+            </div>
+            <div class="service-card fade-up">
+                <div class="service-icon"><i data-lucide="zap"></i></div>
+                <div class="service-name">Landing Pages</div>
+                <p class="service-desc">High-converting single pages for products, campaigns, and launches.</p>
+                <p class="service-from">From <strong>₹8,000</strong></p>
+            </div>
+            <div class="service-card fade-up">
+                <div class="service-icon"><i data-lucide="layers"></i></div>
+                <div class="service-name">Web Applications</div>
+                <p class="service-desc">Full-stack apps with frontend, backend, database, and APIs — built to scale.</p>
+                <p class="service-from">From <strong>₹80,000</strong></p>
+            </div>
+            <div class="service-card fade-up">
+                <div class="service-icon"><i data-lucide="wrench"></i></div>
+                <div class="service-name">Fixes &amp; Improvements</div>
+                <p class="service-desc">Bug fixes, UI improvements, and performance optimization for existing sites.</p>
+                <p class="service-from">From <strong>₹2,000</strong></p>
+            </div>
+            <div class="service-card fade-up">
+                <div class="service-icon"><i data-lucide="shield"></i></div>
+                <div class="service-name">Monthly Management</div>
+                <p class="service-desc">Ongoing hosting, maintenance, updates and priority support every month.</p>
+                <p class="service-from">From <strong>₹3,000/mo</strong></p>
+            </div>
+            <div class="service-card fade-up"
+                style="display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;background:#FAFAF8;">
+                <p style="font-family:var(--font-display);font-size:20px;font-weight:300;margin-bottom:12px;">Not sure
+                    what<br><em>you need?</em></p>
+                <a href="contact.html" class="btn-primary" style="font-size:13px;padding:10px 20px;">Let's talk →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section style="background:white;max-width:100%;">
+        <div style="max-width:1200px;margin:0 auto;padding:100px 48px;">
+            <p class="section-tag">How it works</p>
+            <h2 class="section-title">Simple process.<br><em>No surprises.</em></h2>
+            <div class="how-grid">
+                <div class="how-step fade-up">
+                    <div class="how-num">01</div>
+                    <div class="how-title">We talk</div>
+                    <p class="how-desc">Tell me about your project, goals, and budget. I'll come back with a clear plan,
+                        timeline, and quote — no jargon.</p>
+                </div>
+                <div class="how-step fade-up">
+                    <div class="how-num">02</div>
+                    <div class="how-title">We build</div>
+                    <p class="how-desc">I design and develop your product with regular updates. You're involved at every
+                        stage — nothing ships without your approval.</p>
+                </div>
+                <div class="how-step fade-up">
+                    <div class="how-num">03</div>
+                    <div class="how-title">We launch</div>
+                    <p class="how-desc">Your product goes live. I handle deployment, testing, and post-launch support so
+                        you can focus on your business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section">
+        <p class="section-tag">Selected work</p>
+        <h2 class="section-title">Projects we're<br><em>proud of.</em></h2>
+        <div class="projects-grid">
+            <div class="project-card fade-up">
+                <div class="project-thumb">
+                    <img src="images/bake-times.png" alt="Bake Times — Full-stack baking and recipe website" />
+                </div>
+                <div class="project-info">
+                    <p class="project-type">Full-Stack · Food &amp; Baking</p>
+                    <h3 class="project-name">Bake Times</h3>
+                    <p class="project-desc">A full-stack baking website with recipe browsing, baking basics, holiday
+                        specials, and a review system. Built with a Node.js backend and MongoDB database.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express.js</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card fade-up">
+                <div class="project-thumb">
+                    <img src="images/learn-academy.png" alt="Learn Academy — 1-on-1 online tutoring platform" />
+                </div>
+                <div class="project-info">
+                    <p class="project-type">Multi-Page Website · Education</p>
+                    <h3 class="project-name">Learn Academy</h3>
+                    <p class="project-desc">A personalized 1-on-1 online tutoring platform with course listings, trial
+                        booking, comparison sections, and contact forms powered by EmailJS.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">EmailJS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card fade-up">
+                <div class="project-thumb">
+                    <img src="images/forge.png" alt="Forge — Elite fitness studio landing page" />
+                </div>
+                <div class="project-info">
+                    <p class="project-type">Landing Page · Health &amp; Fitness</p>
+                    <h3 class="project-name">Forge Elite</h3>
+                    <p class="project-desc">A high-impact fitness studio landing page with programs, coach profiles,
+                        member transformation stories, and a trial booking form.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">EmailJS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="text-align:center;margin-top:48px;">
+            <a href="portfolio.html" class="btn-secondary">View all projects →</a>
+        </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <div class="cta-banner">
+        <h2>Ready to build<br><em>something great?</em></h2>
+        <p>Tell me about your project and I'll get back to you within 24 hours.</p>
+        <a href="contact.html" class="btn-light">Start a project →</a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="index.html" class="footer-logo"><span>FOR</span>CASTLE</a>
+        <ul class="footer-links">
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p class="footer-copy">© 2026 Forcastle · <a href="mailto:hello@forcastle.tech"
+                style="color:inherit;text-decoration:none;">hello@forcastle.tech</a> · Built by <a
+                href="https://naifportfolio.dev" target="_blank" rel="noopener"
+                style="color:inherit;text-decoration:underline;">Mohd Naif</a></p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+
+</html>
