@@ -1,0 +1,12 @@
+# Forcastle — robots.txt
+# https://forcastle.tech
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://forcastle.tech/sitemap.xml
+
+# Disallow admin or draft pages (none currently)
+# Disallow: /admin/
+# Disallow: /drafts/

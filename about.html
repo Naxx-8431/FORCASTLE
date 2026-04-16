@@ -4,9 +4,36 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About — Forcastle</title>
+    <title>About Mohd Naif — Full-Stack Developer Behind Forcastle</title>
     <meta name="description"
-        content="Meet Mohd Naif, the full-stack web developer behind Forcastle. Based in Mangalore, India — building digital products for clients worldwide." />
+        content="Meet Mohd Naif, the full-stack web developer behind Forcastle. Based in Mangalore, India — building websites, web apps, and landing pages for clients worldwide. One developer, end-to-end." />
+    <meta name="keywords" content="Mohd Naif, full-stack developer Mangalore, web developer India, Forcastle founder, freelance developer, about Forcastle" />
+    <meta name="author" content="Mohd Naif — Forcastle" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://forcastle.tech/about.html" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:url" content="https://forcastle.tech/about.html" />
+    <meta property="og:title" content="About Mohd Naif — Full-Stack Developer Behind Forcastle" />
+    <meta property="og:description" content="One developer, end-to-end. No agency layers, no handoffs — just clean work, clear communication, and products built to last." />
+    <meta property="og:image" content="https://forcastle.tech/images/og-image.png" />
+    <meta property="og:site_name" content="Forcastle" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://forcastle.tech/about.html" />
+    <meta name="twitter:title" content="About Mohd Naif — Full-Stack Developer Behind Forcastle" />
+    <meta name="twitter:description" content="One developer, end-to-end. Building digital products for businesses worldwide from Mangalore, India." />
+    <meta name="twitter:image" content="https://forcastle.tech/images/og-image.png" />
+
+    <!-- Theme & Favicon -->
+    <meta name="theme-color" content="#1a1a18" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="apple-touch-icon" href="images/favicon.png" />
+
+    <!-- Preconnect & Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,12 +41,40 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css" />
     <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Structured Data — Person -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mohd Naif",
+        "url": "https://naifportfolio.dev",
+        "jobTitle": "Full-Stack Web Developer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Forcastle",
+            "url": "https://forcastle.tech"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Ullal, Mangalore",
+            "addressRegion": "Karnataka",
+            "addressCountry": "IN"
+        },
+        "knowsAbout": ["HTML", "CSS", "JavaScript", "React", "Next.js", "Node.js", "Express", "MongoDB", "SQL", "PHP", "Python", "Git", "Figma"],
+        "sameAs": [
+            "https://www.instagram.com/forcastlestudio/",
+            "https://www.linkedin.com/company/forcastle",
+            "https://naifportfolio.dev"
+        ]
+    }
+    </script>
 </head>
 
 <body>
 
     <!-- NAV -->
-    <nav>
+    <nav aria-label="Main navigation">
         <a href="index.html" class="nav-logo"><span>FOR</span>CASTLE</a>
         <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
             <span></span><span></span><span></span>
@@ -32,6 +87,7 @@
         </ul>
     </nav>
 
+    <main>
     <!-- PAGE HERO -->
     <section class="page-hero">
         <div class="hero-tag">About</div>
@@ -140,6 +196,8 @@
         <p>I'm always open to interesting projects and collaborations.</p>
         <a href="contact.html" class="btn-light">Work with me →</a>
     </div>
+
+    </main>
 
     <!-- FOOTER -->
     <footer>

@@ -4,9 +4,36 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio — Forcastle</title>
+    <title>Portfolio — Web Development Projects & Case Studies | Forcastle</title>
     <meta name="description"
-        content="Explore Forcastle's portfolio — full-stack web applications, education platforms, and high-converting landing pages built with modern technology." />
+        content="Explore Forcastle's portfolio — full-stack web applications, education platforms, and high-converting landing pages. Real projects with case studies showcasing problem, solution, and results." />
+    <meta name="keywords" content="web development portfolio, website projects, full-stack case studies, landing page examples, web application portfolio, Forcastle projects" />
+    <meta name="author" content="Mohd Naif — Forcastle" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://forcastle.tech/portfolio.html" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://forcastle.tech/portfolio.html" />
+    <meta property="og:title" content="Portfolio — Web Development Projects & Case Studies | Forcastle" />
+    <meta property="og:description" content="Real projects, real solutions. Full-stack web apps, education platforms, and high-converting landing pages built with modern technology." />
+    <meta property="og:image" content="https://forcastle.tech/images/og-image.png" />
+    <meta property="og:site_name" content="Forcastle" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://forcastle.tech/portfolio.html" />
+    <meta name="twitter:title" content="Portfolio — Web Development Projects | Forcastle" />
+    <meta name="twitter:description" content="Real projects, real solutions. Full-stack web apps, education platforms, and high-converting landing pages." />
+    <meta name="twitter:image" content="https://forcastle.tech/images/og-image.png" />
+
+    <!-- Theme & Favicon -->
+    <meta name="theme-color" content="#1a1a18" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="apple-touch-icon" href="images/favicon.png" />
+
+    <!-- Preconnect & Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,12 +41,66 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css" />
     <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Structured Data — Portfolio ItemList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Forcastle Portfolio",
+        "description": "Selected web development projects by Forcastle",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@type": "CreativeWork",
+                    "name": "Bake Times",
+                    "description": "A full-stack baking website with recipe management, baking basics, holiday specials, and reviews — built with Node.js and MongoDB.",
+                    "url": "https://baketimes-frontend.onrender.com/",
+                    "creator": {
+                        "@type": "Organization",
+                        "name": "Forcastle"
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@type": "CreativeWork",
+                    "name": "Learn Academy",
+                    "description": "A personalized 1-on-1 online tutoring platform with course listings, trial booking, and EmailJS-powered contact forms.",
+                    "url": "https://learn-acad.vercel.app/",
+                    "creator": {
+                        "@type": "Organization",
+                        "name": "Forcastle"
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@type": "CreativeWork",
+                    "name": "Forge Elite",
+                    "description": "A high-impact fitness studio landing page with programs, coach profiles, member transformation stories, and trial booking.",
+                    "url": "https://forgeelite.netlify.app/",
+                    "creator": {
+                        "@type": "Organization",
+                        "name": "Forcastle"
+                    }
+                }
+            }
+        ]
+    }
+    </script>
 </head>
 
 <body>
 
     <!-- NAV -->
-    <nav>
+    <nav aria-label="Main navigation">
         <a href="index.html" class="nav-logo"><span>FOR</span>CASTLE</a>
         <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
             <span></span><span></span><span></span>
@@ -32,6 +113,7 @@
         </ul>
     </nav>
 
+    <main>
     <!-- PAGE HERO -->
     <section class="page-hero">
         <div class="hero-tag">Portfolio</div>
@@ -180,6 +262,8 @@
         <p>Let's talk about your idea and make it real.</p>
         <a href="contact.html" class="btn-light">Let's talk →</a>
     </div>
+
+    </main>
 
     <!-- FOOTER -->
     <footer>
