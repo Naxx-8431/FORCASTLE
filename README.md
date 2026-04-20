@@ -105,41 +105,6 @@ The site is fully optimized for search engines and social sharing:
 
 ---
 
-## Getting Started
-
-No build step required. This is a static site.
-
-### Run Locally
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/FORCASTLE.git
-   cd FORCASTLE
-   ```
-
-2. **Open in browser**
-   ```bash
-   # Option 1 — Simply open the file
-   open index.html
-
-   # Option 2 — Use a local server (recommended for accurate paths)
-   npx serve .
-   ```
-
-3. **That's it.** No `npm install`, no build, no config.
-
-### Deploy
-
-The site is designed to be deployed as-is to any static hosting:
-
-- [**Netlify**](https://netlify.com) — Drag & drop the folder
-- [**Vercel**](https://vercel.com) — Connect the repo
-- [**GitHub Pages**](https://pages.github.com) — Push to `main` branch
-- [**Cloudflare Pages**](https://pages.cloudflare.com) — Zero-config deploy
-- Any traditional web host via FTP/SFTP
-
----
-
 ## Design Highlights
 
 - 🎨 **Warm, editorial aesthetic** — Off-white backgrounds with dark typography
